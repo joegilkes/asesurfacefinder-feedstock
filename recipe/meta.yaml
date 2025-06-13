@@ -1,6 +1,6 @@
 {% set python_min = "3.9" %}
 {% set name = "asesurfacefinder" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/asesurfacefinder-{{ version }}.tar.gz
-  sha256: c6c3b54151e547879f6ec5627a306f5388aca4aedaa242e6d961b8aecc9f494b
+  sha256: c1212c796eb9c422cafad0c4acf679b553b31bee764f9d3faa441af29274373a
 
 build:
   noarch: python
